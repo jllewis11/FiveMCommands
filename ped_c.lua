@@ -6,7 +6,7 @@ local teams = {
     
 }
 
-RegisterCommand("convoy", function (source, args)
+RegisterCommand("ambush", function (source, args)
 	AddRelationshipGroup('team1')
 	AddRelationshipGroup('team2')
 
