@@ -2,7 +2,21 @@ fx_version 'cerulean'
 games      { 'gta5' }
 
 author 'Panda'
-description 'Ambush Command built for escorts'
-version ' 0.1'
+description 'Ambush and Riot'
+version ' 0.2'
 
-client_script "ped_c.lua"
+--
+-- Server
+--
+
+server_scripts {
+    'server/server.lua',
+}
+
+--
+-- Client
+--
+
+client_scripts {
+    'client/client.lua',
+}
